@@ -1,0 +1,25 @@
+body{
+    width: 1980px;
+    height: 1080px;
+}
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: wrap;
+}
+
+.content {
+    background-color: rgb(226, 165, 165);
+    width: 500px;
+    height: 400px;
+}
+
+p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    color: brown;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

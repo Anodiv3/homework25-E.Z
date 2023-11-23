@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/styles-hm-4-10.css">
+</head>
+<body>
+    <main>
+        <div>
+        <p>To create a chart, we need to instantiate the <code>Chart</code> class. To do this, we need <br>
+        to pass in the 2d context of whete we want to draw the chart. Here's an <br>
+        example.
+        </p>
+            <code class="thisOne"> <span class="spanBlue">&lt;canvas </span> <span class="spanLightBlue">id=</span> <span class="spanRed">"myChart"</span> <span class="spanLightBlue">width=</span> <span class="spanRed">"400"</span> <span class="spanLightBlue">height=</span> <span class="spanRed">"400"</span> <span class="spanBlue">&gt;&lt;/canvas&gt;</span> </code>
+        <pre>
+            <code>
+    <span class="spanComment">// Get the context of the canvas element we want to select</span>
+    <b>var</b> ctx = <span class="spanLightBlue">document</span>.getElementById&#40;"myChart"&#41;.getContext&#40;"2d"&#41;;
+    <b>var</b> myNewChart = <b>new</b> Chart&#40;ctx&#41; .PolarArea&#40;data&#41;;
+            </code>
+        </pre>
+        <p>
+            We can also get the context of our canvas with jQuery. To do this, we need to <br>
+            get the DOM node out of the jQuery collection, and call the <br>
+            <code>getContext&#40;"2d"&#41;</code> method on that.
+            <pre>
+                <code>
+    <span class="spanComment">// Get context with jQuery - using jQuery's .get&#40;&#41; method.</span>
+    <b>var</b> ctx = $&#40;<span class="spanRed">"myChart"</span>&#41;.get&#40;<span class="spanLightBlue">0</span>&#41;.getContext&#40;<span class="spanRed">"2d"</span>&#41;;
+    <span class="spanComment">// This will get the first returned node in the jQuery collection</span>
+    <b>var</b> myNewChart = <b>new</b> Chart&#40;ctx&#41;;
+                </code>
+            </pre>
+        </p>
+        </div>
+    </main>
+</body>
+</html>

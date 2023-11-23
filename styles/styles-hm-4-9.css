@@ -1,0 +1,30 @@
+body {
+    background-color: white;
+    width: 1920px;
+    height: 1080px;
+}
+
+.codeCode {
+    display: block;
+    background-color: rgba(209, 209, 209, 0.781);
+    border: 1px solid rgba(138, 138, 138, 0.295);
+    border-radius: 2px;
+    line-height: 30px;
+    width: 550px; 
+    padding: 0px 5px;
+    overflow-x: auto;
+    overflow-y: hidden;
+    text-wrap: nowrap;
+}
+
+.codeCodeSpan {
+    color: blue;
+}
+
+.codeSpan {
+    background-color: rgba(209, 209, 209, 0.781);
+    border: 1px solid rgba(138, 138, 138, 0.295);
+    border-radius: 2px;
+    line-height: 30px;
+    padding: 0px 5px;
+}

@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(255, 255, 255);
+    overflow-x: scroll;
+}
+
+
+.spanComment {
+    color: grey;
+    font-style: italic;
+}
+
+.spanLightBlue {
+    color: lightblue;
+}
+
+.spanRed {
+    color: red;
+}
+
+.spanBlue {
+    color: blue;
+}
+
+.thisOne { /* Остальные строчки кода встают нормально, скорее всего из-за тега pre, а этот "особенный" не имеет его, бо одна строчка, ну короче как-то так получилося */
+    margin-left: 30px;
+    margin-top: 5px;
+}

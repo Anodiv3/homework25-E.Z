@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 1920px;
+    height: 1080px;
+}
+
+.wrapper-nav {
+    display: flex;
+    justify-content: start;
+    margin: 10px 0 0 10px;
+    width: 40%;
+    height: 40px;
+    background-color: rgb(80, 79, 79);
+    border-top: 2px solid red ;
+}
+
+.link-nav {
+    display: flex;
+    gap: 10px;
+}
+
+a {
+    color: rgba(255, 255, 255, 0.9);
+    display: inline-block;
+    text-decoration: none;
+    line-height: 45px;
+    margin: 0 0 0 10px;
+}

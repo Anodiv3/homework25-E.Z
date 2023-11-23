@@ -1,0 +1,9 @@
+body {
+    background-color: rgb(237, 186, 253);
+}
+
+
+p {
+    padding: 20px;
+    border-left: dotted blue;
+}
